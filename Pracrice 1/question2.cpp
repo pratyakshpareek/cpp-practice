@@ -1,11 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int x;
-    cout<<"enter first number ";
-    cin>>x;
-    int y;
-    cout<<"enter second number ";
-    cin>>y;
-    cout<<"the product is "<<x*y;
+    int n;
+    cout<<"enter the year" ;
+    cin>>n;
+    if(n%400==0 || (n%4==0 && n%100!=0)){
+        cout<<"leap year ";
+ 
+    }
+else {
+        cout<<"not a leap year ";}
+       
+
 }
