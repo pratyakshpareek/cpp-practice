@@ -7,6 +7,6 @@ int main(){
     int h;
     cout<<"enter the height ";
     cin>>h;
-    cout<<"the area of circle is "<<0.5*0.5*b*h;
+    cout<<"the area of triangle  is "<<0.5*0.5*b*h;
     return 0;
 }
